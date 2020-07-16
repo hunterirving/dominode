@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<script>
+			window.onbeforeunload = function() {
+			return "Are you sure you want to refresh?";
+			};
+		</script>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+		<style>
+		body {
+			background-color:black;
+		}
+		.content {
+		  width: 100%;
+		  overflow-y: scroll;
+			background-color: black;
+		}
+		.left{
+		  background-color: black;
+		  width: 50%;
+		  float: left;
+			color:orange;
+		}
+		.right{
+		  background-color: #222222;
+		  width: 50%;
+		  float: left;
+			color:cornflowerblue;
+		}
+
+		</style>
+	</head>
+	<body style="overflow-y: scroll;">
+		<div class="content" style="font-family: 'Roboto Mono', monospace;">
+			<div class="left" contentEditable="true">
+
+			</div>
+			<div class="right" contentEditable="true">
+
+			</div>
+		</div>
+	</body>
+</html>

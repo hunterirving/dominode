@@ -1,4 +1,4 @@
 # dominode
-in-browser text editor for film script writing
+in-browser text editor for script writing
 
 www.hunterirving.com/dominode
